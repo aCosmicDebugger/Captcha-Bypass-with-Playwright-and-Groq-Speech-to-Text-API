@@ -1,4 +1,5 @@
 # Captcha Bypass with Playwright and Groq Speech-to-Text API
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xbtaXlZdH7YuC57z6T3Klw.png)
 
 This project automates the resolution of CAPTCHAs on web pages using Playwright for browser automation and the Groq API for audio transcription. The idea is to simulate a flow where, after entering a tracking code, the system downloads the CAPTCHA audio, transcribes its content, and automatically inserts it into the form to proceed with the search.
 
