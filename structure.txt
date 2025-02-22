@@ -1,0 +1,19 @@
+.
+├── app
+│   ├── constants.py
+│   ├── __init__.py
+│   ├── logger_config.py
+│   ├── logs
+│   ├── main.py
+│   ├── scrapping
+│   │   ├── __init__.py
+│   │   └── scrapper.py
+│   └── utils
+│       ├── __init__.py
+│       └── path_utils.py
+├── pyproject.toml
+├── README.md
+├── structure.txt
+└── uv.lock
+
+5 directories, 12 files

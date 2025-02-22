@@ -1,0 +1,14 @@
+[project]
+name = "captcha-bypass-with-playwright-and-groq-speech-to-text-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "blue>=0.9.1",
+    "groq>=0.18.0",
+    "loguru>=0.7.3",
+    "playwright>=1.50.0",
+    "python-dotenv>=1.0.1",
+]
