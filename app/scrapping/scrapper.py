@@ -2,7 +2,6 @@ import aiofiles
 from urllib.parse import urljoin
 from app.logger_config import logger
 from app.constants import (
-    CAPTCHA_AUDIO_SOURCE,
     TRANSCRIPTION_MODEL,
     TRANSCRIPTION_PROMPT,
     TRANSCRIPTION_LANGUAGE,

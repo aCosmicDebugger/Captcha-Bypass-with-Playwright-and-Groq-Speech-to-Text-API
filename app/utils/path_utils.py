@@ -23,18 +23,6 @@ def clean_parsing_string(transcription: str) -> str:
       - any uppercase letter that is immediately followed by a space, a comma, a period, or the end of the string.
 
     The captured tokens are concatenated in the order they appear.
-
-    Examples:
-        'Número 3. Número 2. Número 1. Número 1. E, de escola' returns '3211E'
-        'W  Número 1 Número 2 A' returns 'W12A'
-        'T. J. Número 3. Número 8. K.' returns 'TJ38K'
-        'S de sapo, C de casa, W número 3, W, G de gato,' returns 'SCW3WG'
-
-    Args:
-        transcription (str): The transcription string containing the captcha code.
-
-    Returns:
-        str: The extracted captcha code.
     """
     # Pattern explanation:
     #   (?:(?i:número)\s+(\d+))

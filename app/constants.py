@@ -3,8 +3,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 # logs
-LOG_DIR = 'app/logs'
+LOG_DIR = os.path.join(BASE_DIR, 'logs')
 
 # scrapping
 URL = 'https://rastreamento.correios.com.br/app/index.php'
