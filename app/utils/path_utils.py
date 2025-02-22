@@ -13,9 +13,6 @@ def get_tmp_file_path(suffix: str = '.wav') -> str:
     return tempfile.mktemp(suffix=suffix, dir=tmp_dir)
 
 
-import re
-
-
 def clean_parsing_string(transcription: str) -> str:
     """
     Extracts the captcha code from the transcription string by capturing:
