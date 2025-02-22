@@ -79,16 +79,24 @@ This project automates the resolution of CAPTCHAs on web pages using Playwright 
 ## Project Structure
 
 ```
-YourProject/
-├── app/
-│   ├── scrapping/
-│   │   └── scrapper.py      # Functions for downloading, transcribing, and solving the CAPTCHA.
-│   ├── constants.py         # Configurations and page selectors.
-│   ├── logger_config.py     # Logger configuration for logging information.
-│   └── utils/
-│       └── path_utils.py    # Utility functions for handling temporary files.
-├── main.py                  # Main script that orchestrates the automation.
-└── requirements.txt         # Project dependencies.
+.
+├── app
+│   ├── constants.py
+│   ├── __init__.py
+│   ├── logger_config.py
+│   ├── logs
+│   ├── main.py
+│   ├── scrapping
+│   │   ├── __init__.py
+│   │   └── scrapper.py
+│   └── utils
+│       ├── __init__.py
+│       └── path_utils.py
+├── pyproject.toml
+├── README.md
+├── structure.txt
+└── uv.lock
+
 ```
 
 ---
